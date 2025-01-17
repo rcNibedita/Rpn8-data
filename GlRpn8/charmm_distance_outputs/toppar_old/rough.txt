@@ -1,0 +1,21 @@
+MASS   347 NG2O1   14.00700  ! NITB, nitrobenzene
+CG2R61 NG2O1   230.00     1.4020 ! NITB, nitrobenzene
+CG324  NG2O1   226.00     1.4900 ! NIPR, nitropropane, abar
+CG334  NG2O1   250.00     1.4800 ! NIME, nitromethane, abar
+CG2R61 CG2R61 NG2O1    20.00    120.00 ! NITB, nitrobenzene
+CG321  CG324  NG2O1    56.80    109.00 ! NIPR, nitropropane, abar
+CG2R61 NG2O1  OG2N1    65.00    116.00 ! NITB, nitrobenzene
+CG324  NG2O1  OG2N1    56.00    117.00 ! NIPR, nitropropane, abar
+CG334  NG2O1  OG2N1    60.00    120.00 ! NIME, nitromethane, abar ! we'll tolerate the angle strain in this specific case - Kenno
+OG2N1  NG2O1  OG2N1   105.00    128.00 ! NITB, nitrobenzene
+CG2R61 CG2R61 CG2R61 NG2O1      2.0000  2   180.00 ! NITB, nitrobenzene
+CG2R61 CG2R61 NG2O1  OG2N1      0.9000  2   180.00 ! NITB, nitrobenzene
+CG331  CG321  CG324  NG2O1      0.8773  1   180.00 ! NIPR, nitropropane, abar
+CG331  CG321  CG324  NG2O1      0.2382  2     0.00 ! NIPR, nitropropane, abar
+CG331  CG321  CG324  NG2O1      0.1465  3   180.00 ! NIPR, nitropropane, abar
+HGA2   CG321  CG324  NG2O1      0.1950  3     0.00 ! NIPR, nitropropane; from NG2S1 CG321 CG321 HGA2; abar
+CG321  CG324  NG2O1  OG2N1      0.0840  2   180.00 ! NIPR, nitropropane, kevo & abar
+CG321  CG324  NG2O1  OG2N1      0.0330  4     0.00 ! NIPR, nitropropane, kevo & abar
+CG321  CG324  NG2O1  OG2N1      0.0242  6     0.00 ! NIPR, nitropropane, kevo & abar ! we'll tolerate the slight dihedral strain for the sake of transferability - Kenno
+HGA2   CG324  NG2O1  OG2N1      0.0150  6   180.00 ! NIPR, nitropropane, abar
+HGA3   CG334  NG2O1  OG2N1      0.0010  6     0.00 ! NIME, nitromethane, abar

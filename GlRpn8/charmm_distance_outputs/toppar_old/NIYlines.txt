@@ -1,0 +1,13 @@
+RESI NIY               0.000  ! meta-nitro-tyrosine
+CT1    CG321  CG2R61  51.80 107.50               ! PROT PARALLH19 (JES) F2F NIY IYR 0A1 ALN 0BN 2LT BIF      
+CTD1   CG321  CG2R61  51.80 107.50               ! PROT PARALLH19 (JES) F2F NIY IYR 0A1 ALN 0BN 2LT BIF      
+CG2R61 CG321  CT1    C       0.0400 3    0.00 ! PROT 2.7 kcal/mole CH3 rot in ethylbenzene, adm jr, 3/7/92 F2F NIY
+CT1    CG321  CG2R61 CG2R61  0.2300 2  180.00 ! PROT ethylbenzene ethyl rotation, adm jr. 3/7/92 F2F NIY 0A1 ALN IYR
+HB1    CT1    CG321  CG2R61  0.0400 3    0.00 ! PROT 2.7 kcal/mole CH3 rot in ethylbenzene, adm jr, 3/7/92 F2F NIY
+HB1    CT1    CG321  HGA2    0.1950 3    0.00 ! NA, sugar 2MR OAS F2F TOX SGB CSPP NIY 2AG 2CO IYR
+NH1    CT1    CG321  CG2R61  0.2000 3    0.00 ! PROT alkane update, adm jr., 3/2/92 F2F NIY IYR 0A1 2LT ALN
+CG2R61 CG321  CTD1   C       0.0400 3    0.00 ! PROT 2.7 kcal/mole CH3 rot in ethylbenzene, adm jr, 3/7/92 F2F NIY
+CTD1   CG321  CG2R61 CG2R61  0.2300 2  180.00 ! PROT ethylbenzene ethyl rotation, adm jr. 3/7/92 F2F NIY 0A1 ALN IYR
+HB1    CTD1   CG321  CG2R61  0.0400 3    0.00 ! PROT 2.7 kcal/mole CH3 rot in ethylbenzene, adm jr, 3/7/92 F2F NIY
+HB1    CTD1   CG321  HGA2    0.1950 3    0.00 ! NA, sugar 2MR OAS F2F TOX SGB CSPP NIY 2AG 2CO IYR
+NH1    CTD1   CG321  CG2R61  0.2000 3    0.00 ! PROT alkane update, adm jr., 3/2/92 F2F NIY IYR 0A1 2LT ALN

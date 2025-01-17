@@ -1,0 +1,2 @@
+The distance calculation input file for only one residue pair is shown as reference. 
+The same script was used to calculate the distances between other two residue pairs by modifying the residue numbers.
